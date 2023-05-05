@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+   
+    }
+li{
+    /* xóa . của thẻ li*/
+    list-style: none;
+    text-decoration:none;
+}
+header{   
+    display: flex;
+    justify-content: space-between;
+    padding:15px 20px;
+    height:70px;
+    
+    
+}
+.logo{
+    flex: 1;
+ 
+}
+.logo img {
+    /* trên xuống trái qua*/
+    padding:0px 10px;
+        max-width:100%;
+       
+  
+}
+.menu{
+    flex:4;
+    /* nằm ngang*/
+    display:flex;
+    
+ 
+   
+}
+
+
+.menu  li {
+    /*khoản cách giữa các thẻ li*/
+    padding:5px 50px;
+ 
+}
+
+  #menu ul {
+   
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #menu li {
+    
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    
+    
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color:#0C0A0A;
+    display: block;
+    font-size: 17;
+  }
+  #menu ul li a:hover {
+    background:white;
+    color: red;
+  }
+  #menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+  }
+  #menu li {
+   position: relative;
+  }
+  .sub-menu {
+   display: none;
+   position: absolute;
+  }
+  #menu ul li:hover .sub-menu {
+    display: block;
+    background-color:azure;
+  }
+.khac{
+    flex:1;
+    display: flex;
+    
+}
+.khac > li {
+    padding: 5px 12px ;
+    font-size: 17px;
+    
+}
+.khac li a {
+  color:#0C0A0A;
+    text-decoration: none;
+}
+
+
+  
+    
+  
+
